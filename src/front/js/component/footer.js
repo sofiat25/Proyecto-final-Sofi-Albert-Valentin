@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import "../../styles/footer.css";
 
-export const Footer = () => (
+
+export const Footer = () => {
+	return (
+
 <footer className="text-center bg-body-tertiary">
   {/* <!-- Grid container --> */}
   <div className="container pt-4">
@@ -76,4 +80,7 @@ export const Footer = () => (
   </div>
   {/* <!-- Copyright --> */}
 </footer>
+
 );
+};
+

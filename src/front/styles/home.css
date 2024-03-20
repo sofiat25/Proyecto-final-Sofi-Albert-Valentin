@@ -1,6 +1,7 @@
 .navbar{
     display:flex;
     padding:0.5%;
+    background-color: #f6efc5;
 }
 .container-articulos{
     justify-content: center;

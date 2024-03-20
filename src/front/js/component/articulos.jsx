@@ -1,17 +1,47 @@
 import React from "react";
-import "../../styles/home.css";
+import "../../styles/articulos.css";
 
 export const Articulos = () =>{
     return (
-        <div className="container-articulos">
-            <div className="card text-bg-dark">
-  <img src="https://media.istockphoto.com/id/1207252787/es/foto/foto-de-la-peque%C3%B1a-dama-muy-excitada-sosteniendo-tel%C3%A9fono-joven-influencer-haciendo-selfies.jpg?s=2048x2048&w=is&k=20&c=SnpJEse4_brx-gWhYRPTxmSHJtFhuPYSWQniFZ9Qg88=" className="card" width={1200} height={550} alt="..."/>
-  <div className="card-img-overlay">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text"><small>Last updated 3 mins ago</small></p>
+      <div className="container-art">
+      <div className="row row-cols-1 row-cols-md-3 g-4">
+  <div className="col">
+    <div className="card h-100">
+      <img src="https://bit.ly/490DMVe" className="card-img-top" alt="..." height={400} width={90}/>
+      <div className="card-body">
+        <h5 className="card-title">Vestidos</h5>
+        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div className="card-footer">
+        <small className="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src="https://bit.ly/49ZD0sR" className="card-img-top" height={400} width={90} />
+      <div className="card-body">
+        <h5 className="card-title">Zapatos</h5>
+        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div className="card-footer">
+        <small className="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div className="col">
+    <div className="card h-100">
+      <img src="https://bit.ly/3ILziao" className="card-img-top" height={400} width={90}/>
+      <div className="card-body">
+        <h5 className="card-title">Accesorios</h5>
+        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div className="card-footer">
+        <small className="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
   </div>
 </div>
-        </div>
-    )
-}
+</div>
+    );
+};
